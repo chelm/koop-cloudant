@@ -1,8 +1,8 @@
 var should = require('should'),
   request = require('supertest'),
   config = require('config'),
-  koop = require('koop-server')(config),
-  kooplib = require('koop-server/lib');
+  koop = require('koop')(config),
+  kooplib = require('koop/lib');
 
 var cloudantHost = 'https://normanb.cloudant.com';
 var resource = 'colorado_skiing/_design/SpatialView/_geo/ski_areas';

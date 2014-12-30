@@ -1,6 +1,6 @@
 {
   "name": "koop-cloudant",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cloudant wrapper for koop ",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,6 @@
     "test": "node_modules/mocha/bin/mocha test/ -t 5000"
   },
   "dependencies": {
-    "koop-server": "*",
     "config": "~0.4.35",
     "ejs": "~1.0.0",
     "node.extend": "~1.0.10",
@@ -23,7 +22,8 @@
     "mocha": "~1.19.0",
     "should": "~3.3.1",
     "yaml": "~0.2.3",
-    "supertest": "~0.13.0"
+    "supertest": "~0.13.0",
+    "koop": "*"
   },
   "author": "Norman Barker",
   "license": "ASF v2"
